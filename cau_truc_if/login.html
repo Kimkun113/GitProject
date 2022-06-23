@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let usename=prompt("who are you?");
+    let password;
+    
+    if(usename=="Admin"){
+       password= prompt("nhap mat khau");
+            if(password=="TheMaster"){
+
+                 document.write("Welcome");
+
+            }else if(password==""){
+
+                document.write("Canceled");
+
+        
+            }else{
+
+        
+                document.write("Wrong password");
+
+            }
+    }else if(usename==""){
+        document.write("canceld");
+
+    }else{
+        document.write("I don't know you");
+    }
+</script>
+</html>
